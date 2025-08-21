@@ -92,12 +92,12 @@ const Hero = () => {
       >
         <motion.div
           variants={itemVariants}
-          className="mb-6"
+          className="mb-6 mt-40                                                  sm:mt-0"
         >
           <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary-500/10 text-primary-400 border border-primary-500/20">
             <Sparkles className="w-4 h-4 mr-2" />
             Professional Software Solutions
-          </span>
+          </span>                                                             
         </motion.div>
 
         <motion.h1

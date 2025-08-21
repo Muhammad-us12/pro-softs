@@ -55,18 +55,14 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company info */}
             <div className="lg:col-span-1">
-              <Link to="/" className="flex items-center space-x-2 mb-6">
-                <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
-                  className="bg-gradient-to-r from-primary-500 to-secondary-500 p-2 rounded-lg"
-                >
-                  <Code2 className="h-6 w-6 text-white" />
-                </motion.div>
-                <span className="text-xl font-bold gradient-text">
-                  Pro-Softs.tech
-                </span>
-              </Link>
+           <Link to="/" className="flex items-center space-x-2 group">
+                      <motion.div
+                        className="w-32"
+                      >
+                      <img src="/logo.png" alt="" className='w-full'/>
+                      </motion.div>
+                      
+                    </Link>
               
               <p className="text-slate-400 mb-6 leading-relaxed">
                 Professional software solutions that transform businesses and drive innovation. 

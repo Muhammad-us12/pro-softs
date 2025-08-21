@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="60" cy="60" r="58" stroke="#64748B" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Circuit pattern simplified for small size -->
+  <g stroke="#22D3EE" stroke-width="2" fill="none">
+    <!-- Main circuit lines -->
+    <path d="M25 30 L40 30 L40 40 L60 40 L60 30 L80 30"/>
+    <path d="M60 40 L75 40 L75 50"/>
+    <path d="M40 40 L40 60 L50 60"/>
+    <path d="M50 60 L50 75 L40 75 L40 90"/>
+    <path d="M40 90 L60 90 L60 80 L75 80"/>
+    
+    <!-- Connection nodes -->
+    <circle cx="40" cy="40" r="2" fill="#22D3EE"/>
+    <circle cx="60" cy="40" r="2" fill="#22D3EE"/>
+    <circle cx="50" cy="60" r="2" fill="#22D3EE"/>
+    <circle cx="75" cy="50" r="2" fill="#22D3EE"/>
+    <circle cx="75" cy="80" r="2" fill="#22D3EE"/>
+  </g>
+  
+  <!-- Central tech element -->
+  <g stroke="#A855F7" stroke-width="2" fill="rgba(168, 85, 247, 0.1)">
+    <rect x="48" y="52" width="24" height="16" rx="2"/>
+    <line x1="52" y1="56" x2="68" y2="56"/>
+    <line x1="52" y1="60" x2="68" y2="60"/>
+    <line x1="52" y1="64" x2="68" y2="64"/>
+  </g>
+  
+  <!-- Simplified text -->
+  <text x="8" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#E2E8F0">PRO-SOFTS</text>
+  <text x="80" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#A855F7">TECH</text>
+</svg>
